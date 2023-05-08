@@ -56,6 +56,10 @@ main h1 {
 	padding: .3em 0;
 	border-top: 3px solid #931420;
 	border-bottom: 3px solid #931420;
+	border-style: double;
+	border-radius: 15px;
+	box-shadow: 5px 5px;
+	/* margin-left: 5px; */
 }
 main h2 {
 	color: var(--global-color-1);
