@@ -46,18 +46,25 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+#nav_menu::after {
+	content:" ";
+	clear: both;
+	display: block;
 
-ul {
+}
+
+#nav_menu ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
+	
 }
-ul li {
+#nav_menu ul li {
 	float: left;
+	position: relative;
 
 }
-li a {
+#nav_menu li a {
 	width: 20%;
 	text-align: center;
 	padding-top: 1em;
@@ -72,6 +79,28 @@ li a {
 	color: yellow;
 	
 }
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	
+}
+
+#nav_menu ul ul li {
+	float: none;
+
+}
+#nav_menu ul li:hover {
+	display: block;
+}
+#bottom {
+	list-style-type: circle;
+
+}
+
+
+
+
 /* the styles for the section */
 section {
 	width: 525px;
