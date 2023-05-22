@@ -253,7 +253,8 @@ footer p {
 		grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
 	}
 	#mobile_menu {
-		grid-column: 6;
+		grid-column: 1/6;
+		display: block;
 	}
 	.slicknav_menu {
 		background-color: #800000 !important;
@@ -262,6 +263,10 @@ footer p {
 		display: grid;
 		grid-template-columns: 100%;
 		grid-template-rows: auto auto;
+	}
+	#nav_menu {
+		display: none;
+		
 	}
 }
 
