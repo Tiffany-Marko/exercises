@@ -88,6 +88,10 @@ header img {
 main {
 	clear: left;
 }
+div {
+	float: right;
+	width: 530px;
+}
 
 /* the styles for the section */
 section {
@@ -118,6 +122,24 @@ section ul {
 }
 section li {
 	padding-bottom: .35em;
+}
+table {
+	table-layout: auto;
+	width: 95%;
+	float: right;
+	padding: 20px 20px 20px 20px;
+}
+#tabletitle {
+	text-align: center;
+
+}
+th, td {
+	color:#800000;
+	border:#800000;
+}
+.tableunl {
+	border-bottom: 2px solid black;
+
 }
 
 /* the styles for the article */
